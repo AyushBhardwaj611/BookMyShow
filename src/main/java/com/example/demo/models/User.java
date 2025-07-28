@@ -12,6 +12,7 @@ import lombok.Setter;
 //@Table(name = "users") if we want that model shld be saved with a diff name in database
 //mostly used in postgresql because user is a keyword there so cant bw saved like this
 public class User extends BaseModel {
-    private String name;
+    private String Username;
     private String email_id;
+    private String password;
 }
